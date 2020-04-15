@@ -4,31 +4,44 @@ body {
 
 }
 
-canvas {
-  float: none;
-  background-color: lightblue;
-  border: 3px;
-  border-style: solid;
-  
-}
-table {
-	position: fixed;
-	top: 1px;
-	width: 100%;
-}
 
-th {
+.navBar {
+	background-color: lightblue;
+	border-style: none;
+}
+.navBar ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
 
-	border: none;
-	padding: 10px;
-	text-align: center;
-	background-color: #65B7AA;
-	border-collapse: collapse;
-	vertical-align: middle;
-	color: #F2EAE8;
-	font-family: Verdana, Geneva, sans-serif;
+}
+.navBar li {
+	float: left;
+}
+.navBar a {
+	display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 th:hover {
 	background-color: #5cada1;
+}
+
+canvas {
+	margin-left: auto;
+	margin-right: auto;
+  	float: none;
+  	background-color: lightblue;
+  	border: 3px;
+  	border-style: solid;
+}
+.pongCanvas{
+	border-style: solid;
+	margin: auto;
 }

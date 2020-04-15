@@ -6,3 +6,4 @@ function onLoad() {
   ctx.fillRect(10,10,100,100);
 
 }
+
