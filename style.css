@@ -1,7 +1,34 @@
+
+
+body {
+
+}
+
 canvas {
-  
+  float: none;
   background-color: lightblue;
   border: 3px;
   border-style: solid;
   
+}
+table {
+	position: fixed;
+	top: 1px;
+	width: 100%;
+}
+
+th {
+
+	border: none;
+	padding: 10px;
+	text-align: center;
+	background-color: #65B7AA;
+	border-collapse: collapse;
+	vertical-align: middle;
+	color: #F2EAE8;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+th:hover {
+	background-color: #5cada1;
 }
